@@ -81,45 +81,9 @@ Import tables from any database into local **DuckDB** workspaces. Mix SQL cells 
 
 Download the latest `.dmg` from [Releases](https://github.com/xar/queryline/releases).
 
-```bash
-# Or install via Homebrew (coming soon)
-brew install --cask queryline
-```
-
 ### Windows & Linux
 
 Coming soon.
-
----
-
-## Development
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) 18+
-- [Rust](https://rustup.rs/) 1.70+
-- [Tauri CLI](https://tauri.app/v1/guides/getting-started/prerequisites)
-
-### Setup
-
-```bash
-# Install dependencies
-npm install
-
-# Run in development mode
-npm run tauri dev
-
-# Build for production
-npm run tauri build
-```
-
-### Testing
-
-```bash
-# Run Rust tests (no Docker needed)
-cd src-tauri && cargo test --test driver_sqlite --test export --test cache_duckdb \
-  --test connection_manager --test history --test settings -- --test-threads=1
-```
 
 ---
 
@@ -150,29 +114,11 @@ cd src-tauri && cargo test --test driver_sqlite --test export --test cache_duckd
 
 ---
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
 ## Community
 
 - [Discord](https://discord.gg/Ez4QtYKGz4) — Get help, share feedback, connect with other users
 - [Product Hunt](https://www.producthunt.com/posts/queryline) — Support us with an upvote!
 - [GitHub Issues](https://github.com/xar/queryline/issues) — Report bugs or request features
-
----
-
-## License
-
-[MIT](LICENSE) © Queryline
 
 ---
 
