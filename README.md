@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://queryline.dev/logo.png" alt="Queryline" width="128" height="128">
-</p>
-
 <h1 align="center">Queryline</h1>
 
 <p align="center">
