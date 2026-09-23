@@ -52,6 +52,8 @@ Built with **Rust** and **Tauri** — not an Electron app. Smooth scrolling thro
 - Multiple query tabs per connection
 - Automatic query history
 - Execute with `Cmd+Enter`
+ - Rename query tabs temporarily from the tab menu or by double-clicking
+ - Table query tabs default to the table name (for example, `sales`)
 
 ### Visual Data Exploration
 - **Filter bar** (`Cmd+F`) — build WHERE conditions without SQL
